@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
